@@ -9,7 +9,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 function App() {
   return (
     <div>
-      <HashRouter>
+      <Router>
         <Routes>
           <Route
             path="/"
@@ -28,7 +28,7 @@ function App() {
             element={<Resume />}
           />
         </Routes>
-      </HashRouter>
+      </Router >
     </div>
   );
 }
