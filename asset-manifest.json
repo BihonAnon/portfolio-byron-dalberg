@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/portfolio-byron-dalberg/static/css/main.84487ea8.css",
-    "main.js": "/portfolio-byron-dalberg/static/js/main.0e8de64e.js",
+    "main.js": "/portfolio-byron-dalberg/static/js/main.29191c2d.js",
     "index.html": "/portfolio-byron-dalberg/index.html",
     "main.84487ea8.css.map": "/portfolio-byron-dalberg/static/css/main.84487ea8.css.map",
-    "main.0e8de64e.js.map": "/portfolio-byron-dalberg/static/js/main.0e8de64e.js.map"
+    "main.29191c2d.js.map": "/portfolio-byron-dalberg/static/js/main.29191c2d.js.map"
   },
   "entrypoints": [
     "static/css/main.84487ea8.css",
-    "static/js/main.0e8de64e.js"
+    "static/js/main.29191c2d.js"
   ]
 }
