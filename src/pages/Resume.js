@@ -5,9 +5,10 @@ import Footer from '../components/Footer';
 
 function Resume() {
   return (
-    <div>
-      <Header />
-    <Card>
+    <div >
+    <Header/>
+    <div className="d-flex flex-column justify-content-center my-5 gap-3 px-4">
+    <Card className="my-4">
       <Card.Header style={{fontWeight: "bold"}}>Frontend Skills</Card.Header>
       <ListGroup variant="flush">
         <ListGroup.Item>HTML</ListGroup.Item>
@@ -16,9 +17,10 @@ function Resume() {
         <ListGroup.Item>Responsive Design</ListGroup.Item>
         <ListGroup.Item>React</ListGroup.Item>
         <ListGroup.Item>Bootstrap</ListGroup.Item>
+        <ListGroup.Item>TailwindCSS</ListGroup.Item>
       </ListGroup>
     </Card>
-    <Card>
+    <Card className="my-4">
       <Card.Header style={{fontWeight: "bold"}}>Backend Skills</Card.Header>
       <ListGroup variant="flush">
         <ListGroup.Item>APIs</ListGroup.Item>
@@ -30,6 +32,7 @@ function Resume() {
         <ListGroup.Item>GraphQL</ListGroup.Item>
       </ListGroup>
     </Card>
+    </div>
     <Footer />
     </div>
   );

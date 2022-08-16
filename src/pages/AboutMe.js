@@ -5,9 +5,10 @@ import Footer from '../components/Footer';
 
 export default function Aboutme() {
   return (
-    <div className='d-grid gap-3'>
+    <>
       <Header />
-      <Card className="bg-dark text-black container-sm">
+      <div className="d-flex justify-content-center my-5 gap-3">
+      <Card className="my-4 bg-dark text-black container-sm">
         <Card.Img src="https://i.ibb.co/7Q13k3W/IMG-6036.jpg" alt="Card image" />
         <Card.ImgOverlay>
           <Card.Title style={{color: 'white'}}>About Me</Card.Title>
@@ -17,7 +18,8 @@ export default function Aboutme() {
           <Card.Text style={{color: 'white'}}>Last updated 8/15/2022</Card.Text>
         </Card.ImgOverlay>
       </Card>
+      </div>
       <Footer />
-    </div>
+    </>
   );
 }

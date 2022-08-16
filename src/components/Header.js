@@ -7,18 +7,17 @@ import { Link } from 'react-router-dom';
 
 function Header() {
   return (
-    // fixed="top"
-    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+    <Navbar fixed="top" collapseOnSelect expand="lg" bg="dark" variant="dark">
       <Container>
-        <Navbar.Brand as={Link} to={"/"}>Byron Dalberg</Navbar.Brand>
+        <Navbar.Brand as={Link} to={"/portfolio-byron-dalberg/"}>Byron Dalberg</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link as={Link} to={"/"}>About Me</Nav.Link>
-            <Nav.Link as={Link} to={"/resume"}>Resume</Nav.Link>
-            <Nav.Link as={Link} to={"/contact"}>Contact Me</Nav.Link>
+            <Nav.Link as={Link} to={"/portfolio-byron-dalberg/"}>About Me</Nav.Link>
+            <Nav.Link as={Link} to={"/portfolio-byron-dalberg/resume"}>Resume</Nav.Link>
+            <Nav.Link as={Link} to={"/portfolio-byron-dalberg/contact"}>Contact Me</Nav.Link>
             <NavDropdown title="Projects" id="collasible-nav-dropdown">
-            <NavDropdown.Item as={Link} to={"/portfolio"}>Portfolio</NavDropdown.Item>
+            <NavDropdown.Item as={Link} to={"/portfolio-byron-dalberg/portfolio"}>Portfolio</NavDropdown.Item>
               <NavDropdown.ItemText style={{color: 'grey'}}>Deployed Applications</NavDropdown.ItemText>
               <NavDropdown.Item href="#SurfShop">Surf</NavDropdown.Item>
               <NavDropdown.Item href="https://simple-notes-092831.herokuapp.com/">Simple Notes</NavDropdown.Item>

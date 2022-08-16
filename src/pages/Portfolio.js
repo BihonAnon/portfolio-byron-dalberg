@@ -7,7 +7,7 @@ function Portfolio() {
   return (
     <div>
       <Header />
-      <div className='d-grid gap-3'>
+      <div className='d-grid gap-3 my-4'>
         <Project
           title="SurfShop"
           description="An ecommerce plateform made for sufers, by surfers"
