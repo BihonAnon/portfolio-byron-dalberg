@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.84487ea8.css",
-    "main.js": "/React-Portfolio/static/js/main.52d773ba.js",
-    "index.html": "/React-Portfolio/index.html",
-    "main.84487ea8.css.map": "/React-Portfolio/static/css/main.84487ea8.css.map",
-    "main.52d773ba.js.map": "/React-Portfolio/static/js/main.52d773ba.js.map"
+    "main.css": "/portfolio-byron-dalberg/static/css/main.84487ea8.css",
+    "main.js": "/portfolio-byron-dalberg/static/js/main.52d773ba.js",
+    "index.html": "/portfolio-byron-dalberg/index.html",
+    "main.84487ea8.css.map": "/portfolio-byron-dalberg/static/css/main.84487ea8.css.map",
+    "main.52d773ba.js.map": "/portfolio-byron-dalberg/static/js/main.52d773ba.js.map"
   },
   "entrypoints": [
     "static/css/main.84487ea8.css",
